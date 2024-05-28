@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import json
 import pickle
-import sklearn
+import scikit-learn
 
 
 # Load location options
