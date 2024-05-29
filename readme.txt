@@ -34,9 +34,8 @@ Hello, its a readme file about the procedure I have taken to create my model for
 11-> Performed GridSearchCV for the algos = LinearRegression, Lasso, Decision_Tree_Regressor and got the best result for Linear_Regression. Created function for prediction.
 
 
-12--> I used the help of gradio by google to use it for showcasing the model performence.
+12--> I used streamlit to host. Model accuracy is 88% after performing GridSearchCV for best data suited model and paramters.
 
-13--> There will be flagged folder created to take the record of users that what they have got as result with their inputs.
 
 Thankyou so much for putting your valuable efforts.
                                                    
