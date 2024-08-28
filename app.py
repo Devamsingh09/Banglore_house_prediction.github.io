@@ -63,10 +63,10 @@ def predict_house_price(new_data):
     return y_pred_original
 
 # Streamlit UI configuration
-st.set_page_config(page_title="House Price Prediction", page_icon="🏠", layout="centered")
+st.set_page_config(page_title="Banglore House Price Prediction", page_icon="🏠", layout="centered")
 
 # Sidebar for inputs
-st.sidebar.header("Enter Property Details")
+st.sidebar.header("Enter Property Details as per your requirements:")
 bath = st.sidebar.number_input('🚿 Number of Bathrooms', min_value=0, value=2)
 balcony = st.sidebar.number_input('🏖 Number of Balconies', min_value=0, value=1)
 bhk = st.sidebar.number_input('🛏 Number of BHK', min_value=0, value=2)
