@@ -64,7 +64,7 @@ def predict_house_price(new_data):
 
 # Streamlit UI configuration
 st.set_page_config(page_title="Banglore House Price Prediction", page_icon="🏠", layout="centered")
-
+st.markdown("# Banglore House Price Estimation")
 # Sidebar for inputs
 st.sidebar.header("Enter Property Details as per your requirements:")
 bath = st.sidebar.number_input('🚿 Number of Bathrooms', min_value=0, value=2)
